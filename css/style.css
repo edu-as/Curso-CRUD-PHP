@@ -1,0 +1,92 @@
+*    {
+    margin: 1px;
+    font-size: 100%;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /*Background-image: url("images/background.jpg");
+    Background-Repeat: no-repeat;*/
+    display: flex;
+
+    justify-content: center;
+    height: 100%;   
+}
+
+.container-position {
+    align-self: center;
+
+}
+            
+#formContainer {     
+    color: #fff;
+    width: 600px;
+    background-color: rgb(33, 37, 41);
+    border-radius: 3px;
+    padding: 12px;
+    box-shadow: 0px 0px 9px 3px rgba(79,13,79,0.7);
+}
+
+#tableContainer {
+    background-color: rgb(33, 37, 41);
+    border-radius: 3px;
+    padding: 12px;
+    box-shadow: 0px 0px 8px 2px rgba(79,13,79,0.7);
+
+}
+
+.ContainerMsgConfim {
+    text-align: center;
+    color: #fff;
+    width: 450px;
+    height: 120px;
+    background-color: rgb(33, 37, 41);
+    padding: 12px;
+    box-shadow: 0px 0px 8px 2px rgba(79,13,79,0.7);
+}
+
+.table {
+    width: 800px;
+    
+}
+     
+
+h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.text-align-h4 {
+    background-color: rgba(129, 142, 156, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text-align-confirmacao{
+    font-size: 1.5rem;
+    text-align: center;
+    border: 20px;
+}
+
+
+.button-right {
+    text-align: right ;
+}
+
+.button-center {
+    text-align: center ;
+}
+
+#button-color {
+    background-color:#5ffac6 ;
+    font-weight: bold;
+    padding: 5px;
+    border-color: #fff;
+    color: #222;
+}
